@@ -1,0 +1,27 @@
+version: "3"
+services:
+  admin:
+    container_name: admin
+    build: ./admin
+    ports:
+      - "8080:80"
+
+  api:
+    restart: always
+    container_name: api
+    build: ./server
+    ports:
+      - "4000:4000"
+    depends_on:
+      - db
+
+  db:
+    container_name: db
+    image: "postgres:11-alpine"
+    restart: always
+    privileged: true
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: "plarum"
+      POSTGRES_PASSWORD: "plarum"

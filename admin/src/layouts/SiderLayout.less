@@ -1,0 +1,35 @@
+.layout-sider--light {
+  background-color: #fff !important;
+  box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
+
+  .ant-menu {
+    border-right: 0 !important;
+  }
+}
+
+.layout-sider--dark {
+  background-color: #001529 !important;
+  color: #fff;
+}
+
+.layout-content {
+  display: flex;
+  flex-direction: column;
+
+  > header {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    padding: 0;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  }
+
+  > main {
+    flex: 1;
+    overflow: auto;
+  }
+
+  .page > main {
+    padding: 24px;
+  }
+}

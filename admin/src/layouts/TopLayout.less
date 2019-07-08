@@ -1,0 +1,53 @@
+.layout-header--top {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+
+  > div {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    display: inline-flex;
+    float: left;
+  }
+
+  .ant-menu-horizontal {
+    line-height: 62px;
+
+    &.ant-menu-dark {
+      line-height: 64px;
+    }
+  }
+}
+
+.layout-header--light {
+  background-color: #fff !important;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+
+  .ant-menu {
+    border-bottom: none !important;
+  }
+}
+
+.layout-content--top {
+  padding-top: 64px;
+  height: 100%;
+  overflow: auto;
+
+  .page > header > div,
+  .page main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .page > header > div {
+    padding: 16px 24px;
+  }
+
+  .page main {
+    padding: 24px;
+  }
+}

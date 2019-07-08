@@ -1,0 +1,140 @@
+@import "vars";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100% !important;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+section.layout {
+  height: 100%;
+}
+
+.page header {
+  background: #fff;
+
+  > div {
+    margin: 0 auto;
+    padding: 16px 24px;
+  }
+}
+
+.page main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: @primary-color;
+}
+
+.logo {
+  position: relative;
+  height: 64px;
+  padding-left: 24px;
+  overflow: hidden;
+  line-height: 64px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: inherit;
+
+  img {
+    display: inline-block;
+    width: auto;
+    height: 32px;
+    vertical-align: middle;
+  }
+
+  h1 {
+    display: inline-block;
+    margin: 0 0 0 12px;
+    color: inherit;
+    font-weight: 600;
+    font-size: 20px;
+    vertical-align: middle;
+    transition: all ease 0.2s;
+  }
+}
+
+.layout-header--dark {
+  color: #fff;
+}
+
+.setting-drawer-handler {
+  position: absolute;
+  top: 240px;
+  right: 300px;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px 0 0 4px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.block-checkbox-item {
+  display: inline-flex;
+  position: relative;
+  cursor: pointer;
+  color: inherit;
+
+  + .block-checkbox-item {
+    margin-left: 8px;
+  }
+
+  i {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+  }
+}
+
+.result {
+  padding: 48px 32px;
+  background: #fff;
+  text-align: center;
+
+  .result-title {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 24px;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .result-subTitle {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .result-extra {
+    margin-top: 32px;
+    text-align: center;
+  }
+}
+
+.CodeMirror-scroll {
+  max-height: 400px !important;
+}
