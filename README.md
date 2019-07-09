@@ -30,7 +30,7 @@ npm start
 
 `api` 接口默认运行在 `http://localhost:4000`，`admin` 网页运行在 `http://localhost:3000`。
 
-### 生成模式
+### 生产模式
 
 1. `api` 服务构建与运行：
 
@@ -51,7 +51,7 @@ npm run build
 
 #### 使用 docker
 
-如果安装了 `docker`，可以使用 `docker-compose` 直接启动本项目。本项目编写了生成模式部署用的 `docker-compose.yml`，直接在项目根目录执行。
+如果安装了 `docker`，可以使用 `docker-compose` 直接启动本项目。本项目编写了生产模式部署用的 `docker-compose.yml`，直接在项目根目录执行。
 
 ```shell
 docker-compose build
