@@ -5,6 +5,8 @@
 Admin is build with React, Redux, and support i18n.
 Server is powered by Koa2 + PostgreSQL.
 
+![preview gif](https://dpxr-graph-bed.oss-cn-beijing.aliyuncs.com/plarum.gif)
+
 ## 启动
 
 服务启动之前先确保 **数据库** 可连接（推荐使用 docker: `docker container run -d -p 5432:5432 --name postgres postgres:11-alpine`）。
