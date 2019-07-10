@@ -5,7 +5,7 @@
 Admin is build with React, Redux, and support i18n.
 Server is powered by Koa2 + PostgreSQL.
 
-![preview gif](https://i.loli.net/2019/07/09/5d24b0d4b97ee63348.gif)
+![preview gif](https://i.loli.net/2019/07/10/5d2541def0a9361017.gif)
 
 ## 启动
 
