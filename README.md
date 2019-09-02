@@ -1,6 +1,8 @@
-# Plarum
-
-> A simple full stack demo writen by React & Koa
+<div align="center">
+    <br />
+    <h1>Plarum</h1>
+    <h3>A simple full stack demo writen by React & Koa</h3>
+</div>
 
 Admin is build with React, Redux, and support i18n.
 Server is powered by Koa2 + PostgreSQL.
