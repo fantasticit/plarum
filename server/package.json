@@ -28,7 +28,7 @@
     "koa-jwt2": "^1.0.3",
     "koa-router": "^7.4.0",
     "koa2-cors": "^2.0.6",
-    "marked": "^0.6.2",
+    "marked": "^1.1.1",
     "moment": "^2.24.0",
     "pg": "^7.11.0",
     "reflect-metadata": "^0.1.13",
